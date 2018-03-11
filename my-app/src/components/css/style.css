@@ -1,6 +1,10 @@
 .smallFontSize>h1{
   font-size: 12px;
 }
+.mall{
+  font-size: 12px;
+  color: red;
+}
 
 .smallFontSizeFooter h1{
   font-size: 14px;
