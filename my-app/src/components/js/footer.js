@@ -21,6 +21,7 @@ export default class ComponentFooter extends React.Component {
 				<h1 style={footerConvertStyle.miniFooter_h1}>这里是页脚，一般放置版权的一些信息。</h1>
 				{/* yarn add babel-plugin-react-html-attrs --save */}
 				<h2 class="mall">只用class</h2>
+				<h3>页面的id： {this.props.match.params.idd}</h3>
 			</footer>
 		)
 	}

@@ -8,6 +8,8 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
+// import createBrowserHistory from 'history/createBrowserHistory'
+// const history = createBrowserHistory()
 
 export default class Root extends Component{
   render(){
@@ -18,7 +20,7 @@ export default class Root extends Component{
           <Route component={bodyOne} exact path="/">
           </Route>
           <Route component={ComponentDetails} path="/details"></Route>
-          <Route component={footer} path="/list"></Route>
+          <Route component={footer} path="/list/:idd" ></Route>
         </div>
       </Router>
     )
